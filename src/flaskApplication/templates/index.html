@@ -1,0 +1,7 @@
+{%extends "layout.html"%}
+{%block content%}
+    {% for i in posts %}
+    <h1>Name is {{i.name}}</h1>
+    <p>having dob {{i.dob}} lives in {{i.city}}</p>
+    {% endfor %}
+{%endblock content%}
